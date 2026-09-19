@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="media/hda-moe/social-preview.png" alt="HDA-MoE - IEEE TCAD accepted" width="100%">
+  <img src="media/hda-moe/social-preview.png" alt="HDA-MoE - IEEE TCAD" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=43"><img src="https://img.shields.io/badge/IEEE%20TCAD-Accepted-0A7C66?style=flat-square" alt="IEEE TCAD Accepted"></a>
+  <a href="https://doi.org/10.1109/TCAD.2026.3733620"><img src="https://img.shields.io/badge/IEEE%20TCAD-Online-0A7C66?style=flat-square" alt="IEEE TCAD Online"></a>
   <a href="https://ieeexplore.ieee.org/document/11240984"><img src="https://img.shields.io/badge/ICCAD%202025-HD--MoE-4C6EF5?style=flat-square" alt="HD-MoE at ICCAD 2025"></a>
   <img src="https://img.shields.io/badge/Python-3.10-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-F3A712?style=flat-square" alt="MIT License"></a>
@@ -15,16 +15,16 @@
 
 <p align="center">
   Haochen Huang, Shuzhang Zhong, Shengxuan Qiu, Zhe Zhang, Shuangchen Li, Cong Li,<br>
-  Dimin Niu, Hongzhong Zheng, Guangyu Sun, and Meng Li
+  Dimin Niu, Hongzhong Zheng, Guangyu Sun, Runsheng Wang, and Meng Li
 </p>
 
 <p align="center">
-  &#127881; Accepted by <strong>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)</strong>.
+  &#127881; Published online in <a href="https://doi.org/10.1109/TCAD.2026.3733620"><strong>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)</strong></a>.
 </p>
 
 HDA-MoE is a deployment and runtime framework for efficient Mixture-of-Experts (MoE) inference on distributed 3D near-memory processing (NMP) systems. It co-optimizes expert placement, on-chip communication, runtime scheduling, and hardware-aware routing so that sparse MoE execution matches the compute, bandwidth, topology, and memory constraints of the target system.
 
-This repository contains the implementation and evaluation workflow for the accepted TCAD paper and builds on the conference work [HD-MoE](https://github.com/angerybob/HD-MoE) ([ICCAD 2025 paper](https://ieeexplore.ieee.org/document/11240984)).
+This repository contains the implementation and evaluation workflow for the online-published TCAD paper and builds on the conference work [HD-MoE](https://github.com/angerybob/HD-MoE) ([ICCAD 2025 paper](https://ieeexplore.ieee.org/document/11240984)).
 
 ## Highlights
 
@@ -140,21 +140,22 @@ The repository includes the routing traces and placement artifacts required by t
 ## Paper and citation
 
 **HDA-MoE: Hybrid Parallelism and Dynamic, Adaptive Scheduling for Mixture-of-Experts with 3D Near-Memory Processing**<br>
-Haochen Huang, Shuzhang Zhong, Shengxuan Qiu, Zhe Zhang, Shuangchen Li, Cong Li, Dimin Niu, Hongzhong Zheng, Guangyu Sun, and Meng Li.<br>
-Accepted by *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems*.
+Haochen Huang, Shuzhang Zhong, Shengxuan Qiu, Zhe Zhang, Shuangchen Li, Cong Li, Dimin Niu, Hongzhong Zheng, Guangyu Sun, Runsheng Wang, and Meng Li.<br>
+Published online in *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems*. [DOI: 10.1109/TCAD.2026.3733620](https://doi.org/10.1109/TCAD.2026.3733620)
 
-The DOI and final IEEE Xplore link will be added after online publication. Until then, please use the accepted-manuscript citation:
+Please cite the official online version:
 
 ```bibtex
-@article{huang2026hdamoe,
-  author  = {Haochen Huang and Shuzhang Zhong and Shengxuan Qiu and Zhe Zhang and
-             Shuangchen Li and Cong Li and Dimin Niu and Hongzhong Zheng and
-             Guangyu Sun and Meng Li},
-  title   = {{HDA-MoE}: Hybrid Parallelism and Dynamic, Adaptive Scheduling for
-             Mixture-of-Experts with 3D Near-Memory Processing},
-  journal = {IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems},
-  year    = {2026},
-  note    = {Accepted}
+@ARTICLE{11690625,
+  author={Huang, Haochen and Zhong, Shuzhang and Qiu, Shengxuan and Zhang, Zhe and Li, Shuangchen and Li, Cong and Niu, Dimin and Zheng, Hongzhong and Sun, Guangyu and Wang, Runsheng and Li, Meng},
+  journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems},
+  title={HDA-MoE: Hybrid Parallelism and Dynamic, Adaptive Scheduling for Mixture-of-Experts with 3D Near-Memory Processing},
+  year={2026},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Modeling;Routing;Joining processes;Hardware;Memory;Broadcasting;Loading;Computer architecture;Conferences;Educational institutions;Automated Deployment;Mixture-of-Experts;3D Near-Memory Processing;Hardware-Aware Routing;NoC Simulation},
+  doi={10.1109/TCAD.2026.3733620}
 }
 ```
 
